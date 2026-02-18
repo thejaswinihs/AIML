@@ -9,5 +9,7 @@ MLflow looks as below which elaborates how the ML datasets are analysed and send
 
 There are multiple algorithms in the ML , In the below example we are showing Linear Regression algoirthms 
 
+<img width="2128" height="520" alt="image" src="https://github.com/user-attachments/assets/617695d2-7ee3-4d2f-8d95-341e652100f8" />
+
 
 
