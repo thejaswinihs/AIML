@@ -5,4 +5,9 @@ In software program we provide the input and add the logical in the program so t
 
 <img width="2188" height="594" alt="image" src="https://github.com/user-attachments/assets/d509709f-bb3c-41c1-b752-45762a4b9b7c" />
 
+MLflow looks as below which elaborates how the ML datasets are analysed and send the data to the ML and make use of algorthms to get the predicted output .
+
+There are multiple algorithms in the ML , In the below example we are showing Linear Regression algoirthms 
+
+
 
