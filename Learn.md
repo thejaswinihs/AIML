@@ -14,6 +14,6 @@ There are multiple algorithms in the ML , In the below example we are showing Li
 Library used to use the algoirthm to feed the training data is used based on the category 
   https://scikit-learn.org/stable/
 
-Linear Regression : IT takes the argument as X and Y 
+Linear Regression is a superviser learning  : IT takes the argument as X and Y 
 
 
