@@ -16,4 +16,6 @@ Library used to use the algoirthm to feed the training data is used based on the
 
 Linear Regression is a superviser learning  : IT takes the argument as X and Y 
 
+To analyse the data between the 2 entities like input and output we are usimg the library as matplotlib https://matplotlib.org/
+
 
