@@ -21,3 +21,35 @@ To analyse the data between the 2 entities like input and output we are usimg th
 We need to split the data for training and testing , In order to do this task the scikit library have a function https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
 
 **Supervised Learning** --> In the Supervised Learning we are providing the Features (inputs) and the target for the ML model ton predict the output 
+
+
+import pandas as pd 
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn import linear_model
+from sklearn.linear_model import LinearRegression
+df=pd.read_csv('data copy.csv')
+'''
+print(df.head(15))
+print(df.info())
+print(df.shape)
+print(df.columns) # This will give us the column names of the datasets 
+print(df.describe())
+print(df.duplicated().sum())
+print(plt.figure(figsize=(10,6)))
+plt.scatter(df['bedrooms'],df['price'])
+plt.xlabel('No of bedrooms')
+plt.ylabel('Price')
+plt.show()'''
+X = df[['bedrooms']]
+y = df['price'] 
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42)
+print(X_train.shape)
+print(X_test.shape)
+print(y_train.shape)
+print(y_test.shape)
+model=LinearRegression()
+print(model.fit(X_train,y_train))
+
+joblib is the library used to save the model in the file format
