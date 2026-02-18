@@ -18,4 +18,4 @@ Linear Regression is a superviser learning  : IT takes the argument as X and Y
 
 To analyse the data between the 2 entities like input and output we are usimg the library as matplotlib https://matplotlib.org/
 
-
+We need to split the data for training and testing , In order to do this task the scikit library have a function https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
