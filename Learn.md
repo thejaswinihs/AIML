@@ -11,5 +11,8 @@ There are multiple algorithms in the ML , In the below example we are showing Li
 
 <img width="2128" height="520" alt="image" src="https://github.com/user-attachments/assets/617695d2-7ee3-4d2f-8d95-341e652100f8" />
 
+Library used to use the algoirthm to feed the training data is used based on the category 
+  https://scikit-learn.org/stable/
+
 
 
