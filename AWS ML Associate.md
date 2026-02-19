@@ -1,4 +1,4 @@
-**Differnent Types of Data **
+****Differnent Types of Data ****
 
 1) Structured Data
 2) Unstructured Data 
